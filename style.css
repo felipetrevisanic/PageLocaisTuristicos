@@ -51,6 +51,11 @@ img{
     border-radius: 16px;
 }
 
+ul{
+    margin: 0 24px 48px;
+}
+
+
 .subtitle{
     font-size: 16px;
     font-style: italic;
@@ -66,6 +71,7 @@ img{
 .obs{
     font-size: 16px;
     font-weight: bold;
+    margin: 24px 0 0 0 ;
 }
 
 .accent-history{
@@ -73,6 +79,22 @@ img{
     font-weight: bold;
     font-size: 16px;
 }
+
+.accent-couples{
+    color: var(--accent-purple);
+    font-weight: bold;
+}
+
+.accent-families{
+    color: var(--accent-pink);
+    font-weight: bold;
+}
+
+.accent-budget{
+    color: var(--accent-orange);
+    font-weight: bold;
+}
+
 
 #divisor{
     width: 100%;
@@ -85,7 +107,7 @@ img{
     flex-direction: column;
     margin: 0 auto;
     padding: 24;
-    width: 80%;
+    width: 75%;
     box-sizing: border-box;
 }
 
@@ -104,4 +126,15 @@ header {
 
 main section{
     padding:  32px 0 ;
+}
+
+footer{
+    margin: 40px 0 ;
+    text-align: center;
+}
+
+#last-message{
+    margin-top: 96px;
+    color: var(--text-secondary);
+    font-weight: bold;
 }
